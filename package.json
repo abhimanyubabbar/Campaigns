@@ -1,0 +1,22 @@
+{
+  "name": "Campaigns",
+  "version": "1.0.0",
+  "description": "CAMPAIGNS ====== Team needs to create various campaigns for the users.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "angular": "^1.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babbarshaer/Campaigns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babbarshaer/Campaigns/issues"
+  },
+  "homepage": "https://github.com/babbarshaer/Campaigns#readme"
+}
