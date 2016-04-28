@@ -1,6 +1,6 @@
 (function(){
   
-  angular.module('campaigns').service('CampaignService', ['$log', CampaignService]);
+  angular.module('campaign').service('CampaignService', ['$log', CampaignService]);
 
   function CampaignService($log){
     $log.debug('campaign service instantiated');

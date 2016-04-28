@@ -1,9 +1,9 @@
 (function(){
 
-  angular.module('campaign').controller('BoardController, '['$log','CampaignService', BoardController]);
+  angular.module('campaign').controller('BoardController', ['$log','CampaignService', BoardController]);
 
   /**
-    Controller for the board over which the 
+    Controller for the board over which the
     campaign list needs to be displayed.
    **/
   function BoardController($log, CampaignService){
@@ -20,6 +20,7 @@
 
     self.addNewCampaign = function(){
       $log.debug('invoked addition of a new campaign');
+      // TODO: Do a validation check here.
       CampaignService.addNewCampaign();
     };
     setup(self);
